@@ -1,0 +1,513 @@
+.maindiv
+{
+    background-image: url("../../assets/images/backimg.jpg");
+    width: auto;
+
+}
+.text-field1
+{
+    width: 350px;
+    margin-left: 100px;
+    border-radius: 2px;
+    border-style: none;
+    height: 32px;
+}
+.row
+{
+    width: auto;
+}
+
+.textdiv
+{
+    margin-top: 100px;
+}
+.Thinkdiv, .servicediv, .contactdiv
+{
+    margin-top: 100px;
+}
+
+
+
+.Thinkdiv, .servicediv, .contactdiv
+{
+    font-size:x-large;
+    color: aliceblue;
+}
+
+p
+{
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.submitbtn
+{
+    margin-left: 15px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+hr
+{
+  width: 70%;
+  border: none;
+  height: 6px;
+  background: white;
+  margin-left: 15%;
+}
+
+.imglogomain
+{
+    margin-top: 20px;
+    
+}
+.imglogo
+{
+    margin-left: 20%;
+}
+
+.fontawsicon
+{
+    margin-top: 50px;  
+}
+
+.fontawsicon
+{
+    padding-left: 200px;
+}
+
+.fontaws
+{
+    margin-right: 25px;
+}
+
+.imglogo
+{
+    width: 200px;
+    height: 100px;
+}
+
+
+@media (max-width: 1384px)
+{
+    .submitbtn
+{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+}
+
+@media (max-width: 1384px)
+{
+    .Thinkdiv
+    {
+        margin-left: 40px;
+    }
+  
+}
+@media (max-width: 768px)
+{
+    .servicediv
+    {
+        margin-left: 40px;
+    }
+    .contactdiv
+    {
+        margin-left: 40px;
+    }
+    .contactdiv,.servicediv,.Thinkdiv
+    {
+        margin-top: 20px;
+        width: auto;
+    }
+
+  
+}
+
+@media(max-width:995)
+{
+    .container{
+        margin-top: 100px;
+    }
+}
+@media (max-width:990)
+{
+    .imglogomain
+    {
+        margin-left: 200px;
+    }
+    .imglogo
+    {
+        margin-left: 200px;
+        width: auto;
+    }
+    .fontawsicon
+    {
+        margin-left: 150px;
+        
+    }
+    .fontawsicon,.imglogomain
+    {
+     width: auto;
+    }
+    .fontawsicon
+    {
+        padding-right: 12px;
+        padding-left: 120px;
+    }
+    .fontaws
+    {
+        margin-left: -100px;
+    }
+
+}
+
+
+@media (max-width:764px)
+{
+    .fontawsicon{
+    padding-left: 0px;
+    margin-left: 40%;
+    width: auto;
+    }
+    .imglogomain
+    {
+        margin-left:60px;
+        width: auto;
+    }
+}
+
+
+@media (max-width:645px)
+{
+    .submitbtn
+    {
+        margin-top: 20px;
+        margin-left: 230px;
+        margin: 20px;;
+        width: 100px;
+        border-radius: 50px;
+    }
+}
+@media (max-width:594px)
+{
+    .submitbtn
+    {
+        margin-top: 20px;
+        margin-left: 230px;
+        margin: 20px;;
+        width: 100px;
+        border-radius: 50px;
+    }
+    .text-field1
+    {
+        margin-left: 20px;
+    }
+    .servicediv
+    {
+        padding-right: 120px;
+    }
+    .imglogomain
+    {
+        margin-left: 140px;
+    }
+
+    
+
+}
+@media (max-width:461px)
+{
+    .imglogomain
+    {
+        margin-left: 100px;
+    }
+    .imglogo
+    {
+        height: 80px;
+        width: 120px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:434px)
+{
+    .fontawsicon
+    {
+       margin-left: 140px;
+       width: auto;
+    }
+    .imglogo
+    {
+        margin-left: 50px;
+        width: 100px;
+        height: 70px;
+    }
+}
+
+@media (max-width:385px)
+{
+    .submitbtn
+    {
+        margin-top: 20px;
+        margin-left: 230px;
+        margin: 20px;;
+        width: 100px;
+        border-radius: 50px;
+    }
+    .text-field1
+    {
+        width: 250px;
+        margin-left: 20px;
+    }
+    .imglogo
+    {
+        width: 100px;
+        height: 70px;
+    }
+.Thinkdiv p
+{
+    width: auto;
+    font-size: small;
+}
+.row,.imglogomain,.fontawsicon
+{
+    width: auto;
+}
+}
+
+@media (max-width:385px)
+{
+    .Thinkdiv p{
+        width: auto;
+        font-size:x-small;
+    }
+    .my-paragraph
+    {
+        width: auto;
+        font-size:x-small;
+     }
+     .fontawsicon
+     {
+        margin-left: 110px;
+        width: auto;
+     }
+     .imglogo
+    {
+        margin-left: 10px;
+        width: 100px;
+        height: 70px;
+    }
+   
+}
+
+@media (max-width:285px)
+{
+    .Thinkdiv p{
+        width: auto;
+        font-size:x-small;
+    }
+    .my-paragraph
+    {
+        width: auto;
+        font-size:x-small;
+     }
+     .fontawsicon
+     {
+        margin-left: 30px;
+     }
+     .text-field1
+    {
+        width: 180px;
+        margin-left: 20px;
+    }
+    .fontawsicon
+    {
+        padding-left: 60px;
+    }
+    .imglogo
+    {
+       height: 60px;
+       width: 100px;
+       margin-left: -15px;
+    }
+}
+
+
+/* @media (max-width: 764px) 
+{
+    .subawsicon
+    {
+       margin-left: -500px; 
+    }
+    .Thinkdiv, .servicediv, .contactdiv
+{
+    margin-top: 25px;
+}
+
+.imglogo
+{
+    margin-left: 50px;
+    height: 200px;
+    width: 100px;
+}
+.fontawsicon
+{
+    margin-top: 50px;
+      
+}
+.subawsicon
+{
+    margin-left: 0px;
+}
+.imglogomain
+{
+    margin-left: -100px;
+}
+
+}
+
+
+@media (max-width:600)
+{
+    .fontawsicon,.imglogomain
+    {
+         width: auto;
+        
+    }
+    .subawsicon
+    {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:766px)
+{
+    .Thinkdiv
+    {
+
+    }
+    .fontawsicon
+    {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    .subawsicon
+    {
+        margin-left: 150px;
+    }
+    
+}
+@media (max-width:770px)
+{
+    .imglogo
+    {
+        margin-left: 300px;
+    }
+
+    .fontawsicon
+    {
+        margin-top: 20px;
+    }
+    .fontawsicon,.imglogomain
+    {
+         width: auto;
+    }
+    .servicediv,.contactdiv
+    {
+        margin-left: 70px;
+    }
+    .Thinkdiv,.servicediv,.contactdiv
+    {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width:990px)
+{
+    
+    
+    .Thinkdiv
+    {
+        margin-left: 70px;
+    }
+
+}
+
+.imglogo
+{
+    height:110px ;
+    width: 300px;
+}
+
+@media (max-width:600)
+{
+    .imglogomain img
+    {
+        width: 100px;
+        margin-left: 0px;
+    }
+
+}
+
+/* 
+@media (max-width:769px)
+{
+    
+    .imglogo
+    {
+        margin-left: 210px;
+    }
+    .subawsicon
+    {
+        margin-left: 250px;
+        
+    }
+    .fontawsicon
+    {
+        margin-left: -50px;    
+    }
+} */
+
+
+/* @media (max-width: 1351px)
+{
+    .fontawsicon
+    {
+        margin-top: 150px;
+        margin-left: -500px;
+       
+       
+    }
+    .imglogo
+{
+    margin-left: 65%;
+    height: 400px;
+}
+} */
+
+a{
+    cursor:pointer;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: large;
+} 
+
+/* @media (max-width: 1302px)
+{
+    .subawsicon
+    {
+       margin-left: 10px; 
+    }
+    .fontawsicon
+    {
+        margin-top: 50px;
+        margin-left: 450px;
+    }
+} */

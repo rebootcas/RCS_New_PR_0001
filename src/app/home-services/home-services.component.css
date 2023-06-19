@@ -1,0 +1,228 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato',sans-serif;
+
+ 
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+ background: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent; 
+}
+
+
+.container-1{
+
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;   
+  margin-left: 6%;
+}
+
+.container-1 h2 {
+  font-family: "Century Gothic", "BOLT";
+  font-size: 120px;
+  letter-spacing: -1px;
+  top:25%;
+  left: 42%;
+ color: white;
+  position: absolute;
+  transform: translate(-20% , -20%);
+  z-index: 99;
+ }
+ .infinity {
+  font-family: "Century Gothic", "BOLT";
+  margin-left: 12%;
+  margin-right: 15%;
+  font-size: 140px;
+  background: linear-gradient(to top, #617373, #dddddd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+@font-face{
+  font-family: "Myriad Pro";  
+  src: url("../../assets/fonts/Myriad Pro Regular.ttf") format("truetype");
+ }
+.sub-text{
+  font-size: 25px;
+  font-family: 'Myriad Pro', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  transform: translate(-10% , -10%);
+  margin-top: 2%;
+}
+@font-face{
+  font-family: "Myriad Pro Bold";  
+  src: url("../../assets/fonts/Myriad Pro Bold.ttf") format("truetype");
+ }
+ .btn-learn{
+  border-radius: 80px;
+  height: 45px;
+  width: 20%;
+  font-size: 20px;
+  font-family: 'Myriad Pro Bold', Arial, sans-serif;
+  background-color: #152831;
+  border-width: 5px;
+  border-color: white;
+  color: white;
+  border-width: 0px;
+}
+.btn-learn:hover {
+  background-color: rgba(0,0,0,0.1);
+  border-width: 1px;
+  border-color: white;
+  color: rgb(255, 255, 255);
+}
+
+.cloud{
+  overflow: hidden;
+  
+}
+.cloud img{
+  animation: cld calc(8s * var(--i)) linear infinite;
+  opacity: .6;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 350px;
+}
+@keyframes cld{
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(100%);
+  }
+}
+/* 
+@media only screen and (max-width: 500px) {
+  * {
+
+    margin: initial;
+    padding: initial;
+    font-family: initial;
+  }
+  .container-1{
+      margin-top: -50px;
+  }
+  .all-content{
+      width: 100%;
+  }
+  .container-1 h2 {
+   
+    font-family: "Century Gothic", "BOLT";
+    font-size: 20px;
+    font-size: 20px;
+    top: 50%;
+  }
+  .infinity {
+  
+    font-size: 30px;
+  }
+  .sub-text {
+    
+    font-size: 16px;
+  }
+
+  .btn-learn {
+   
+    width: 120px;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+ .sub-text{
+  font-size: 5px;
+ }
+ .container-1{
+  margin-top: -50px;
+}
+ .main-text {
+  
+  font-family: "Century Gothic", "BOLT";
+  font-size: 25px;
+  margin-left: 30px;
+}
+.btn-learn{
+  width: auto;
+  height: auto;
+  padding: 1%;
+}
+.all-content{
+
+  margin-left: -30px;
+}
+}
+@media only screen and (max-width: 1300px) and (min-width: 500px) {
+ 
+  .sub-text{
+   font-size: 25px;
+  }
+  .container-1{
+      margin-top: -50px;
+  }
+  .main-text {
+   
+   font-family: "Century Gothic", "BOLT";
+   font-size: 80px;
+   margin-left: 30px;
+ }
+ .btn-learn{
+   width: auto;
+   height: auto;
+   padding: 1%;
+ }
+ .all-content{
+  
+   margin-left: 20px;
+ }
+ .infinity{
+  font-size: 80px;
+ 
+ }
+ } 
+
+ @media only screen and (max-width: 985px) and (min-width: 500px) {
+ 
+  .sub-text{
+   font-size: 20px;
+  }
+  .container-1{
+      margin-top: -30px;
+  }
+  .main-text {
+   
+   font-family: "Century Gothic", "BOLT";
+   font-size: 60px;
+   margin-left: 30px;
+ 
+   display: flex;
+ }
+ .btn-learn{
+   width: auto;
+   height: auto;
+   padding: 1%;
+ }
+ .all-content{
+  padding: -80px;
+   margin-left: 20px;
+ }
+ .infinity{
+  font-size: 60px;
+ 
+ }
+ } 
+*/

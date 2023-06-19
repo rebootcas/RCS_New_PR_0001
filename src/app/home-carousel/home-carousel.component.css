@@ -1,0 +1,187 @@
+
+#slider .carousel-item {
+    height: 200px;
+  }
+  
+  .carousel-caption {
+    font-size: 18px;
+  }
+
+
+  .carousel-control-prev {
+    left: 3%;
+    transform: translateX(-50%);
+  }
+
+  .carousel-control-next {
+    right: 3%;
+    transform: translateX(50%);
+  }
+  .carousel-item>img {
+    width: 100%;
+ height: 720px;
+  }
+  .carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    top: 54%;
+  }
+  .carousel .slide
+  {
+   z-index: 0;
+  }
+  .heading-text{
+    font-family: "Century Gothic", "BOLT";
+    font-size: 60px;
+  }
+  @font-face{
+    font-family: "Myriad Pro";  
+    src: url("../../assets/fonts/Myriad Pro Regular.ttf") format("truetype");
+   }
+  .sub-heading{
+    font-size: 30px;
+    font-family: 'Myriad Pro', Arial, sans-serif;
+  }
+  @font-face{
+    font-family: "Myriad Pro Bold";  
+    src: url("../../assets/fonts/Myriad Pro Bold.ttf") format("truetype");
+   }
+  .btn-learn{
+    border-radius: 80px;
+    height: 45px;
+    width: 20%;
+    font-size: 20px;
+    font-family: 'Myriad Pro Bold', Arial, sans-serif;
+    cursor:grab;
+  
+  }
+  .btn-learn:hover {
+    background-color: rgba(0,0,0,0.1);
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    cursor:grab;
+  }
+  .main-felx 
+  {
+    margin-left: 70px !important; 
+  }
+  .temp
+  {
+    margin-left: 80px;
+  }
+  
+  p{
+
+
+    font-size: small;
+  }
+  .flex-items{
+    margin-right: 1.5rem;
+    font-family: 'Myriad Pro Bold', Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+   text-underline-offset: 10px;
+
+  }
+  .cbtn
+  {
+    margin-right: 10px;
+    width: 115px;
+    padding-top: 2px
+  }
+
+  .p1
+  {
+    color: white;
+    margin-left: 30px;
+
+  }
+  .p2
+  {
+    color: white; 
+    padding-left:24px;
+
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .carousel-content {
+        bottom: 5%;
+      }
+    .heading-text{
+        font-size: 2.5em;
+    }
+   
+  }
+  @media screen and (max-width: 1200px) {
+    .carousel-content {
+        bottom: 0%;
+      }
+  }
+  @media screen and (max-width: 910px) {
+    .carousel-content {
+        bottom: 0%;
+      }
+      .heading-text{
+        font-size: 2.4em;
+    }
+    .sub-heading{
+        font-size: 1.7em;
+    }
+    .btn-learn{
+      width: auto;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .carousel-content {
+        bottom: 0%;
+        margin-top: 40px;
+      }
+      .heading-text{
+        font-size: 1.8em;
+    }
+    .sub-heading{
+        font-size: 1.3em;
+    }
+  }
+  @media screen and (max-width: 510px)
+  {
+    .p1
+    {
+      color: white;
+      margin-left: 25px;
+    }
+    .flex-items{
+   
+      font-size: 16px;
+
+  
+    }
+  }
+  @media screen and (max-width: 473px)
+  {
+    .p1
+    {
+      color: white;
+      margin-left: 20px;
+    }
+    .flex-items{
+   
+      font-size: 14px;
+
+  
+    }
+  }
+  @media screen and (max-width: 460px)
+  {
+    .temp
+    {
+      visibility: hidden;
+    }
+  }
+  
+
+

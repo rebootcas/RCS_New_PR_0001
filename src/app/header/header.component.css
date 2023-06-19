@@ -1,0 +1,110 @@
+nav
+{
+
+    text-align: right;
+
+
+}
+nav.navbar {
+
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00091a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+    z-index: 10000;
+    position: fixed;
+    text-align: right;
+
+
+
+  }
+  
+.dropdown-menu
+{
+  background-color:#00091a ;
+  border: none;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+}
+.dropdown-menu a
+{
+  background-color:#00091a ;
+  text-decoration: none;
+}
+.dropdown-menu li:hover
+{
+  background-color:#00091a ;
+  text-decoration: none;
+}
+.dropdown-menu a:hover
+{
+  background-color:#00091a ;
+  text-decoration: none;
+}
+
+a
+{
+  color: white;
+  font-weight:500;
+}
+li{
+  color: white;
+  text-decoration: none;
+
+}
+
+.temp
+{
+  margin-left: 275px;
+}
+
+svg{
+  margin-right: 15px;
+}
+svg:hover{
+  cursor:pointer;
+}
+
+li:hover
+{
+    
+  color: white;
+  text-decoration: underline aqua;
+  text-underline-offset: 10px;
+}
+a:hover
+{
+  color: white;
+}
+li:visited
+{
+  color: white;
+}
+li.active {
+    text-decoration: underline aqua;
+  }
+  
+
+
+@media (max-width:990px)
+{
+  .navbar-toggler
+  {
+    margin-right: 50px;
+  }
+}
+@media (max-width:405px)
+{
+  .navbar-toggler
+  {
+    margin-right: 10px;
+  }
+}

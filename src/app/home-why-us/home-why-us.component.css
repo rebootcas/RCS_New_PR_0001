@@ -1,0 +1,430 @@
+/* @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+    background: #f9f9f9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-all {
+    height: 90%;
+}
+
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    max-width: 400px;
+    margin-top: 10%;
+    overflow: hidden;
+
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 60%;
+}
+
+.content-image {
+    width: 100%;
+
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+} */
+
+/* //////////////////////////////////////// */
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+/* DEMO GENERAL ============================== */
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.4s;
+}
+
+.hover img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.hover-content {
+    position: absolute;
+}
+
+
+/* DEMO 1 ============================== */
+/* .hover-1 img {
+    width: 105%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    transition: all 0.3s;
+}
+
+.hover-1-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    transition: all 0.4s;
+}
+
+.hover-1 .hover-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-description {
+    transform: translateY(0.5rem);
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+    bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+    opacity: 1;
+    transform: none;
+}
+
+.hover-1:hover img {
+    left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+    opacity: 0;
+} */
+
+
+/* DEMO 2 ============================== */
+.hover-2 .hover-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  
+}
+
+.hover-2-title {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.hover-2-description {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-title {
+    transform: translateY(-12rem);
+}
+
+.hover-2:hover .hover-2-description {
+    bottom: 6rem;
+    opacity: 1;
+}
+
+.hover-2:hover .hover-overlay {
+    
+   
+    background: -moz-linear-gradient(90deg, hsla(226, 82%, 32%, 1) 0%, hsla(284, 75%, 41%, 1) 51%, hsla(307, 93%, 48%, 1) 100%, hsla(292, 80%, 42%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(226, 82%, 32%, 1) 0%, hsla(284, 75%, 41%, 1) 51%, hsla(307, 93%, 48%, 1) 100%, hsla(292, 80%, 42%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0F2F94", endColorstr="#8C1AB7", GradientType=1 );
+    opacity: 40%;
+
+}
+.div1, .div2, .div3{
+    height: 350px;
+    
+}
+
+
+/* DEMO 3 ============================== */
+/* .hover-3::after {
+    content: '';
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 90;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    opacity: 0;
+    display: block;
+    opacity: 0;
+}
+
+.hover-3-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 99;
+}
+
+.hover-3-description {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
+
+.hover-3 img {
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+    width: 100%;
+}
+
+.hover-3:hover::after {
+    opacity: 1;
+    transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+    opacity: 1;
+    transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* DEMO 4 ============================== */
+.hover-4 img {
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover-4 .hover-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 90;
+}
+
+.hover-4-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3rem;
+    z-index: 99;
+}
+
+.hover-4-description {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-align: right;
+    border-right: 3px solid #fff;
+    padding: 0 1rem;
+    z-index: 99;
+    transform: translateX(-1.5rem);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+@media (min-width: 992px) {
+    .hover-4-description {
+        width: 50%;
+    }
+}
+
+.hover-4:hover img {
+    width: 100%;
+}
+
+.hover-4:hover::after {
+    opacity: 1;
+    transform: none;
+}
+
+.hover-4:hover .hover-4-description {
+    opacity: 1;
+    transform: none;
+}
+
+.hover-4:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* DEMO 5 ============================== */
+.hover-5::after {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #47c650;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: block;
+    transition: all 0.3s;
+    z-index: 999;
+}
+
+.hover-5 .hover-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hover-5-title {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    transition: all 0.3s;
+    padding: 2rem 3rem;
+    z-index: 99;
+}
+
+.hover-5-title span {
+    transition: all 0.4s;
+    opacity: 0;
+    color: #47c650;
+}
+
+.hover-5:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-title {
+    bottom: 0;
+}
+
+.hover-5:hover .hover-5-title span {
+    opacity: 1;
+}
+
+.hover-5:hover::after {
+    bottom: 0;
+} */
+
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+.main {
+    min-height: 100vh;
+    background-color:#080d2e;
+}
+@font-face{
+    font-family: "Myriad Pro Bold";  
+    src: url("../../assets/fonts/Myriad Pro Bold.ttf") format("truetype");
+   }
+  .heading{
+   
+    font-size: 3rem;
+    font-family: 'Myriad Pro Bold', Arial, sans-serif;
+  }
