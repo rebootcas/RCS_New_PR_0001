@@ -23,6 +23,12 @@ import { NgxCaptchaModule } from 'ngx-captcha';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesCardComponent } from './services-card/services-card.component';
 import { HomeServicesComponent } from './home-services/home-services.component';
+import { Service1Component } from './service1/service1.component';
+import { Service2Component } from './service2/service2.component';
+import { Service3Component } from './service3/service3.component';
+import { Service4Component } from './service4/service4.component';
+import { Service5Component } from './service5/service5.component';
+import { ContactUsHomeComponent } from './contact-us-home/contact-us-home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +44,13 @@ import { HomeServicesComponent } from './home-services/home-services.component';
     CarouselBtn03Component,
     ContactUsComponent,
     ServicesCardComponent,
-    HomeServicesComponent  
+    HomeServicesComponent,
+    Service1Component,
+    Service2Component,
+    Service3Component,
+    Service4Component,
+    Service5Component,
+    ContactUsHomeComponent  
   ],
   imports: [
     BrowserModule,

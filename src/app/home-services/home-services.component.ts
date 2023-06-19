@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router,NavigationExtras } from '@angular/router';
 @Component({
   selector: 'app-home-services',
   templateUrl: './home-services.component.html',
@@ -11,6 +11,9 @@ export class HomeServicesComponent {
 
   Servicesdetails()
   {
+    const navigationExtras: NavigationExtras = {
+      fragment: 'top'
+    };
     this.router.navigate(['/Services']);
     console.log("Hello");
   }

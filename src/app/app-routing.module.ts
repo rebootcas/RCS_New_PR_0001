@@ -11,6 +11,11 @@ import { CarouselBtn02Component } from './carousel-btn02/carousel-btn02.componen
 import { CarouselBtn03Component } from './carousel-btn03/carousel-btn03.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServicesCardComponent } from './services-card/services-card.component';
+import {Service1Component} from './service1/service1.component';
+import {Service5Component} from './service5/service5.component';
+import {Service4Component} from './service4/service4.component';
+import {Service3Component} from './service3/service3.component';
+import {Service2Component} from './service2/service2.component';
 
 const routes: Routes = [
   {
@@ -44,6 +49,24 @@ const routes: Routes = [
 {
   path:'Services',
   component: ServicesCardComponent
+},
+{
+  path:'Services/s1',
+  component: Service1Component
+},{
+  path:'Services/s5',
+  component: Service5Component
+},
+{
+  path:'Services/s2',
+  component: Service2Component
+},{
+  path:'Services/s3',
+  component: Service3Component
+},
+{
+  path:'Services/s4',
+  component: Service4Component
 }]
 
 
